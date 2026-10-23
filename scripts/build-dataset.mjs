@@ -22,7 +22,7 @@ const PARTY_NAMES = {
   'unidad-pueblo-canario': 'Unidad del Pueblo Canario', salf: 'Se Acabó La Fiesta',
 };
 // CCAA donde se presenta cada partido (revisión oct-2026, notas del sitio fuente).
-const ALL = ['AN','AR','AS','CB','CL','CM','CT','EX','GA','IB','RI','MD','MC','NA','PV','VC','CE','ML'];
+const ALL = ['AN','AR','AS','CB','CL','CM','CN','CT','EX','GA','IB','RI','MD','MC','NA','PV','VC','CE','ML'];
 const minus = (codes) => ALL.filter((c) => !codes.includes(c));
 const PARTY_REGIONS = {
   pnv: ['PV'], bildu: ['PV','NA'], erc: ['CT'], junts: ['CT'], bng: ['GA'],
@@ -34,7 +34,7 @@ const PARTY_REGIONS = {
 };
 const REGIONS = [
   ['AN','Andalucía'],['AR','Aragón'],['AS','Asturias'],['CB','Cantabria'],
-  ['CL','Castilla y León'],['CM','Castilla-La Mancha'],['CT','Cataluña'],
+  ['CL','Castilla y León'],['CM','Castilla-La Mancha'],['CN','Canarias'],['CT','Cataluña'],
   ['EX','Extremadura'],['GA','Galicia'],['IB','Illes Balears'],['RI','La Rioja'],
   ['MD','Madrid'],['MC','Murcia'],['NA','Navarra'],['PV','País Vasco'],
   ['VC','Comunitat Valenciana'],['CE','Ceuta'],['ML','Melilla'],
