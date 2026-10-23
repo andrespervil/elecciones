@@ -1,0 +1,26 @@
+/* Hand-compiled from brand/tokens/tokens.json (DTCG) — Amanecer dorado scene. Regenerate via brand/build.sh when automating. */
+:root {
+  /* accents */
+  --ap-accent: #0d9488;   /* teal de la ría */
+  --ap-gold: #e8975a;     /* amanecer gold — sparing */
+  /* amanecer (light) */
+  --ap-am-surface: #f4efe4;
+  --ap-am-sky: #f6e3c3;
+  --ap-am-ink: #1d2c2e;
+  --ap-am-muted: #6b7167;
+  /* marea (dark) */
+  --ap-ma-surface: #0a1a20;
+  --ap-ma-raised: #0e2a33;
+  --ap-ma-ink: #eaf7f5;
+  --ap-ma-muted: #8ab5b3;
+  /* status */
+  --ap-danger: #ef6f5e; --ap-warn: #f2c94c; --ap-ok: #14b8a6; --ap-info: #38bdf8;
+  /* type */
+  --ap-font-display: 'Instrument Serif', Georgia, serif;
+  --ap-font-sans: 'Instrument Sans', system-ui, sans-serif;
+  --ap-font-mono: 'Spline Sans Mono', ui-monospace, monospace;
+  /* shape */
+  --ap-radius-sm: 6px; --ap-radius-md: 10px; --ap-radius-lg: 16px;
+  /* motion */
+  --ap-dur-fast: 120ms; --ap-dur-base: 200ms; --ap-dur-ambient: 25s;
+}
